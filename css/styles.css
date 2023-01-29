@@ -253,7 +253,10 @@ fill: #FFFFFF;
     font-family: 'Roboto';
     font-style: normal;
 }
-@media screen and (min-width:1400px){
+@media screen and (min-width:1440px){
+    .footer-flex{
+        align-items:center;
+    }
     .menu-container{
         display: none;
     }
@@ -739,7 +742,6 @@ fill: #FFFFFF;
         right: 24px;
         transition: background 250ms var(--cubic-bazire-deffault);
     }
-  
     .close-btn{
         width: 8px;
         height: 8px;
@@ -937,7 +939,7 @@ fill: #FFFFFF;
         
     }
 }
-@media screen and (min-width:769px) and (max-width:1390px){
+@media screen and (min-width:769px) and (max-width:1439px){
     .container{
         width: 768px;
     }

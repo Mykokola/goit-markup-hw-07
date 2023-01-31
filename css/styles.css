@@ -253,7 +253,7 @@ fill: #FFFFFF;
     font-family: 'Roboto';
     font-style: normal;
 }
-@media screen and (min-width:1440px){
+@media screen and (min-width:1439px){
     .footer-flex{
         align-items:center;
     }
@@ -935,11 +935,9 @@ fill: #FFFFFF;
         height: 20px;
         fill: rgba(255, 255, 255, 1);
     }
-    .effective-solution-button{
-        
-    }
+
 }
-@media screen and (min-width:769px) and (max-width:1439px){
+@media screen and (min-width:768px) and (max-width:1438px){
     .container{
         width: 768px;
     }
@@ -1424,9 +1422,56 @@ fill: #FFFFFF;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
-@media screen and (min-width:480px) and (max-width:768px){
+@media screen and (max-width:425px) {
     .container{
-      width: 420px;    
+        width: 100%;    
+      }
+      .modal-mobile-contacts {
+        display: flex;
+        margin-top: 48px;
+        justify-content: space-between;
+    }
+
+   .company-list .company-item + .company-item{
+        margin-top: 72px;
+    }
+    .company-list{
+        flex-direction: column;
+    }
+    .company-item{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    .company-item:nth-child(odd){
+        margin-right: 16px;
+    }
+    .company-item:nth-last-child(n+3){
+        margin-bottom: 72px;
+    }
+    .container{
+        width: 420px;    
+      }
+      .modal-mobile-contacts{
+        display: flex;
+        margin-top: 48px;
+        justify-content: center;
+        gap: 56px;
+    }
+}
+@media screen and (max-width:767px){
+    .modal-mobile-footer-contain{
+        height: 100%;
+    }
+    .modal-navigation{
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-modal-menu--nav{
+        flex:1 1 auto;
     }
     .header-logo{
         align-items: center;
@@ -1603,12 +1648,6 @@ fill: #FFFFFF;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    }
-    .company-item:nth-child(odd){
-        margin-right: 16px;
-    }
-    .company-item:nth-last-child(n+3){
-        margin-bottom: 72px;
     }
     .company-link-item {
         border: 1px solid;
@@ -1861,9 +1900,7 @@ fill: #FFFFFF;
     .mobile-modal-menu--nav{
     margin-top: 40px;
     }
-        .addres-mobile-modal{
-        margin-top: 284px;
-    }
+
     .address-mobile-modal--link-namber{
         
         font-family: 'Roboto';
@@ -1897,10 +1934,7 @@ fill: #FFFFFF;
     .adress-mobile-modal-email{
         margin-top: 40px;
     }
-    .modal-mobile-contacts{
-        margin-top: 48px;
-        justify-content: space-between;
-    }
+
    
     .filter-item {
         font-family: 'Roboto';
